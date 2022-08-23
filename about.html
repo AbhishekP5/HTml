@@ -1,0 +1,77 @@
+!DOCTYPE html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MY PAGE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+            <a href="index.html"><img src="images/k.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="programme.html">PROGRAMME</a></li>
+                    <li><a href="gte.html">GTE's</a></li>
+                </ul>
+            </div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	</section>
+<!---------------------about us content--------------------------->
+
+<section class="about-us">
+    <h1>About Us</h1>
+    <div class="row">
+        <div class="about-col">
+            <img src="images/aboutusimg.jpeg" alt="">
+            <h2>Our Purpose</h2>
+            <p> Creating better days and a place at the table for everyone through our trusted food brands. We are a company of promise and possibilities. Each day represents a fresh opportunity to share Our Vision, live Our Purpose.
+                More than 100 years ago, W.K. Kellogg founded our company through his belief in nutrition and dedication to well-being.Motivated by a passion for people, quality and innovation, he created the first-ever breakfast cereal and then shaped an entire industry.</p>
+            <a href="https://www.kelloggs.com/en-in/home.html" target="_blank" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="about-col">
+            <img src="images/michigan.jpeg" alt="">
+            <h2>Our Presence<br> NORTH AMERICA - UNITED STATES <br>(World Corporate Headquarters Battle Creek, Michigan)
+            </h2>
+            <p> More than 100 years ago, W.K. Kellogg created his first wonderful batch of Kellogg’s® Corn Flakes® in the United States. Today Kellogg proudly creates our wholesome foods in 18 countries and offers them in more than 180.
+                We’ve expanded our reach to help families across the globe have great days, so if you have a question, comment or request, please use the information below to contact us. We’ll do our best to help you out.<br><br>Consumer Inquiries<br>
+                1-800-962-1413</p>    
+            <a href="https://www.kelloggs.com/en_US/home.html" target="_blank" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+    </div>
+</section>
+
+
+<!--------------------------------Footer--------------------------------------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Unleashing Our Potential</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/kelloggsindia/?hl=en" target="_blank"><i class="fa fa-instagram" style="font-size:24px;"></i></a>
+        <a href="https://twitter.com/KelloggsIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter" style="font-size:24px;"></i></a>
+        <a href="https://www.linkedin.com/company/kellogg-company/mycompany/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;"></i></a>
+    </div>
+</section>
+
+
+
+
+
+ <!--------JAVA SCRIPT FOR TOGGLE MENU------------>   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right= "0";
+    }
+    function hideMenu() {
+        navLinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>

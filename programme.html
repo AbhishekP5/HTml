@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MY PAGE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+            <a href="index.html"><img src="images/k.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="programme.html">PROGRAMME</a></li>
+                    <li><a href="gte.html">GTEs</a></li>
+                </ul>
+            </div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	</section>
+<!-------------------------------programme---------------------------------------------->
+<section class="course">
+    <h1>Kampus To Korporate</h1>
+    <p>Kampus to Korporate programme provides new GTEs with training and development analysis and also insight on the Korporate strategy. 
+        Not only soft skills to survive in the Korporate but also technical training will be given on the Kampus to Korporate training.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Induction</h3>
+            <p>welcoming newly recruited employees and supporting them to adjust to their new roles and working environments.</p>
+        </div>
+        <div class="course-col">
+            <h3>Training</h3>
+            <p>The training period includes knowing how the Company works providing the new GTEs 
+                with the knowledge and skills they need to perform their jobs at a high level.</p>
+        </div>
+        <div class="course-col">
+            <h3>Assesment</h3>
+            <p>Assesment of the training is done by leaders and experts of their respective feilds.</p>
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+<!--------------------------------Footer--------------------------------------->
+<section class="footer">
+    <h4></h4>
+    <p>Unleashing Our Potential</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/kelloggsindia/?hl=en" target="_blank"><i class="fa fa-instagram" style="font-size:24px;"></i></a>
+        <a href="https://twitter.com/KelloggsIndia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter" style="font-size:24px;"></i></a>
+        <a href="https://www.linkedin.com/company/kellogg-company/mycompany/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px;"></i></a>
+    </div>
+</section>
+
+
+
+
+ <!--------JAVA SCRIPT FOR TOGGLE MENU------------>   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right= "0";
+    }
+    function hideMenu() {
+        navLinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
+
